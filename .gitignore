@@ -1,0 +1,24 @@
+# Local-only artifacts
+.local/
+docs/anvil-accounts.md
+
+# Foundry build output
+out/
+cache/
+cache_forge/
+broadcast/
+
+# Forge gas snapshot artifacts
+**/*.gas-snapshot
+
+# Node / tooling dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# IDE & OS cruft
+.DS_Store
+.idea/
+.vscode/
